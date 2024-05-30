@@ -2,7 +2,7 @@
   <v-container>
     <v-row class="top-row" align="center">
       <v-col cols="auto" class="logo-container">
-        <v-img class="logo" src="../assets/image.png" alt="logo"/>
+        <v-img class="logo" src="../assets/image.png" alt="logo" />
       </v-col>
       <v-col>
         <h1 class="text-h5">Kanban Board</h1>
@@ -70,9 +70,11 @@ export default {
       statuslists: ["Backlog", "In Progress", "In Review", "Done"],
       tasks: {
         "Backlog": [
-          { id: 5, 
-            title: "Attend interview", 
-            description: "attend 2nd interview" }
+          {
+            id: 5,
+            title: "Attend interview",
+            description: "attend 2nd interview"
+          }
         ],
         "In Progress": [
           {
@@ -82,7 +84,7 @@ export default {
           }
         ],
         "In Review": [
-        {
+          {
             id: 3,
             title: "Book interview",
             description: "2nd interview booking",
@@ -162,6 +164,7 @@ export default {
 
 h3 {
   color: #5f4b66;
+  padding-left: 3px;
 }
 
 body {
