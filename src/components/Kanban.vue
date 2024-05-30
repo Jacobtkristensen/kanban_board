@@ -30,7 +30,7 @@
       </v-col>
     </v-row>
 
-    <!-- Add Task Dialog -->
+    <!-- Modal for adding task. could use some tweaking -->
     <v-dialog v-model="dialog" max-width="500px">
       <v-card class="dialog-card">
         <v-card-title>
