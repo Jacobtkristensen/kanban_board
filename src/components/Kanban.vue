@@ -71,41 +71,57 @@ export default {
       tasks: {
         "Backlog": [
           {
-            id: 5,
-            title: "Attend interview",
-            description: "attend 2nd interview"
-          }
+        id: 5,
+        title: "Refactor codebase",
+        description: "Improve code structure and readability",
+          },
+          {
+        id: 6,
+        title: "Implement authentication",
+        description: "Add user authentication functionality",
+          },
+          {
+        id: 7,
+        title: "Optimize database queries",
+        description: "Improve performance by optimizing database queries",
+          },
         ],
         "In Progress": [
           {
-            id: 6,
-            title: "Prepare for interview",
-            description: "Prepare for 2nd interview",
-          }
+        id: 8,
+        title: "Write unit tests",
+        description: "Create unit tests for critical components",
+          },
+          {
+        id: 9,
+        title: "Integrate third-party API",
+        description: "Integrate external API for additional functionality",
+          },
         ],
         "In Review": [
           {
-            id: 3,
-            title: "Book interview",
-            description: "2nd interview booking",
+        id: 10,
+        title: "Fix bugs",
+        description: "Address and resolve reported bugs",
           },
           {
-            id: 4,
-            title: "Fill form",
-            description: "Fill out given pre-interview form",
+        id: 11,
+        title: "Improve UI/UX",
+        description: "Enhance user interface and user experience",
           },
         ],
         "Done": [
           {
-            id: 1,
-            title: "Resume",
-            description: "Write resume for intern position",
+        id: 12,
+        title: "Deploy to production",
+        description: "Release the application to production environment",
           },
           {
-            id: 2,
-            title: "Apply",
-            description: "Apply for Fysiofresh internship",
-          },],
+        id: 13,
+        title: "Document API endpoints",
+        description: "Create documentation for API endpoints",
+          },
+        ],
       },
     };
   },
@@ -113,8 +129,7 @@ export default {
     addTask() {
       if (this.newTask.title && this.newTask.description) {
         const newTask = {
-          id: this.statuslists.length + 1,
-          title: this.newTask.title,
+          id: this.statuslists.length + 1, title: this.newTask.title,
           description: this.newTask.description,
         };
         this.tasks.Backlog.push(newTask);
