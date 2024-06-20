@@ -16,3 +16,11 @@ This is a simple Kanban board application built with Vue.js. It allows you to ma
 - Multiple boards
 - Team members  
 
+
+## Screenshots
+
+Here are some screenshots of the Kanban Board application:
+
+![Screenshot 1](./public/board.png)
+![Screenshot 2](./public/addtask.png)
+
