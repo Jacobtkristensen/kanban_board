@@ -1,6 +1,6 @@
 # Kanban Board
 
-This is a simple Kanban board application built with Vue.js. It allows you to manage and track your tasks using a simple and intuitive interface.
+This is a simple Kanban board application built with Vue.js using Vuetify component framework. It allows you to manage and track your tasks using a simple and intuitive interface.
 
 ## Features
 
